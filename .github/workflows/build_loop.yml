@@ -299,7 +299,6 @@ jobs:
           # more customizations can be pasted after this line
           # Several patches may be added per submodule.
           # Adding comments (#) may be useful to easily tell the individual patches apart.
-
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
