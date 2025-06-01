@@ -286,7 +286,7 @@ jobs:
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
           dexcom_upload_readings \
           future_carbs_4h \
-          low_carb_limit \
+          high_carb_limit \
           override_sens \
           now_line \
           lnl_icon \
@@ -300,6 +300,7 @@ jobs:
 
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
+
           # public static let defaultCarbAbsorptionTimes: CarbStore.DefaultAbsorptionTimes = (fast: .hours(1.5), medium:  .hours(3), slow: .hours(5)) \
           let automaticDosingIOBLimit = maxBolus! * 3.0 \
           static let bolusPartialApplicationFactor = 0.5 \
